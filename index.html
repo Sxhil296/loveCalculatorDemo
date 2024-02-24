@@ -7,18 +7,27 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-red-500 h-screen flex justify-center items-center">
-    <div class="bg-white p-6 rounded-lg shadow-md w-80">
-        <h1 class="text-2xl font-semibold mb-4">Love Calculator</h1>
-        <div class="mb-4">
-            <label for="name1" class="block text-gray-700 font-semibold">Your Name:</label>
-            <input type="text" id="name1" class="w-full border rounded-md px-3 py-2">
+    <div class="flex flex-col items-center justify-center ">
+        <div class="bg-white p-6 rounded-lg shadow-md w-80">
+            <h1 class="text-2xl font-semibold mb-4">Love Calculator</h1>
+            <div class="mb-4">
+                <label for="name1" class="block text-gray-700 font-semibold">Your Name:</label>
+                <input type="text" id="name1" class="w-full border rounded-md px-3 py-2">
+            </div>
+            <div class="mb-4">
+                <label for="name2" class="block text-gray-700 font-semibold">Partner's Name:</label>
+                <input type="text" id="name2" class="w-full border rounded-md px-3 py-2">
+            </div>
+            <button id="calculateBtn" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-lg">Calculate</button>
+            <p id="result" class="mt-4 text-center text-xl font-semibold"></p>
+           
         </div>
-        <div class="mb-4">
-            <label for="name2" class="block text-gray-700 font-semibold">Partner's Name:</label>
-            <input type="text" id="name2" class="w-full border rounded-md px-3 py-2">
+        <div class="pt-4 mt-4 text-white text-center">
+            <p>This is a fun app made during boring lecture.</p>
+        <p>The result is a random number and should be taken seriously.</p>
+        <p>Find the code <a href="https://github.com/Sxhil296/loveCalculatorDemo" target="_blank" class="text-blue-200 underline">here.</a></p>
         </div>
-        <button id="calculateBtn" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg">Calculate</button>
-        <p id="result" class="mt-4 text-center text-xl font-semibold"></p>
+        <footer class="fixed bottom-2 text-white">Built by <a href="https://github.com/Sxhil296" target="_blank" class="underline font-bold">Sahil</a></footer>
     </div>
 
     <script src="app.js"></script>

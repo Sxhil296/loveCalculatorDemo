@@ -21,7 +21,7 @@ This is a simple web app that calculates a "love score" between two people based
 
 ## Live Demo
 
-Try the [Love Calculator](https://your-live-demo-url.com) live!
+Try the [Love Calculator](https://knowlove.netlify.app/) live!
 
 ## Code
 
